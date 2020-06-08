@@ -12,7 +12,7 @@ Facial expression recognition model is build and trained using Convolutional Neu
 
 ## Using Webcam
 
-Webcam was also used by changing the code in **camera.py** file by 
+Webcam is used by changing the code in **camera.py** file by 
 ```
 self.video = cv2.VideoCapture(0)
 ```
