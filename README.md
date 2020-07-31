@@ -1,4 +1,4 @@
-# Facial Expression Recognition with keras
+# Facial Expression Recognition with Keras
 
 Facial expression recognition model is build and trained using Convolutional Neural Network(CNN). The data consists of 48x48 pixel grayscale images of faces. The objective is to classify each face based on the emotion shown in the facial expression into one of seven categories (0=Angry, 1=Disgust, 2=Fear, 3=Happy, 4=Sad, 5=Surprise, 6=Neutral). Faces are detected in videos using OpenCV with an accuracy achieved is 0.6456 and draw a bounding box around them. The trained model is served to a web interface using Flask and perform real-time facial expression recognition on video and image data or using a webcam. 
 
